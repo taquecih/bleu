@@ -16,7 +16,6 @@ b = [1] * l
 for i in range(l):
     ref = word_tokenize(txt1[i])
     hyp = word_tokenize(txt2[i])
-    # ref = [ ref ]
     b[i] = bleu_score.sentence_bleu([ref], hyp, smoothing_function=cc.method7)
 
 f = open('bleu.txt', 'w')
