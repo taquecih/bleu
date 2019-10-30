@@ -26,5 +26,5 @@ This project is subject to calculation of BLEU score for Japanese NLP tasks in a
 ## Author
 [Takeshi Hayakawa](https://github.com/taquecih)
 ## References
-* [NLTK 3.4.5 documentation](NLTK 3.4.5 documentation)
+* [NLTK 3.4.5 documentation](https://www.nltk.org/_modules/nltk/translate/bleu_score.html)
 * Taku Kudo, Kaoru Yamamoto, Yuji Matsumoto: Applying Conditional Random Fields to Japanese Morphological Analysis, Proceedings of the 2004 Conference on Empirical Methods in Natural Language Processing (EMNLP-2004), pp.230-237 (2004.)
