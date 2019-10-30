@@ -12,7 +12,6 @@ ow = [0] * l
 
 for i in range(l):
     ow[i] = mecab.parse(txt[i]).strip()
-    print(ow[i])
 
 f = open('owakati.txt', 'w', encoding='utf-8')
 ow = "\n".join(ow)
