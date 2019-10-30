@@ -5,9 +5,9 @@ This project is subject to calculation of BLEU score for Japanese NLP tasks in a
 * [MeCab](http://taku910.github.io/mecab/)
 ### Dependencies
 * Mecab-bindings according to your environment
- * mecab-python
- * mecab-python3
- * mecab-python-windows
+   * mecab-python
+   * mecab-python3
+   * mecab-python-windows
 * [NLTK](https://www.nltk.org/)
 ## How to use
 1. Tokenization of Japanese text
