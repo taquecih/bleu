@@ -2,6 +2,7 @@
 This project is subject to calculation of BLEU score for Japanese NLP tasks in an easy-to-use and comprehensive manner.
 ## Getting Started
 ### Prerequisites
+* Python3
 * [MeCab](http://taku910.github.io/mecab/)
 ### Dependencies
 * Mecab-bindings according to your environment
