@@ -2,7 +2,7 @@
 # -*- coding: utf8 -*-
 
 # for python3
-# txt1にreference、txt2にMT outputを入れてセンテンスごとにBLEUを取得
+# txt1にreference、txt2にMT outputを入れてsentence_BLEUを取得
 from nltk import word_tokenize
 from nltk import bleu_score
 from nltk.translate.bleu_score import SmoothingFunction
@@ -16,7 +16,7 @@ b = [1] * l
 for i in range(l):
     ref = word_tokenize(txt1[i])
     hyp = word_tokenize(txt2[i])
-    b[i] = bleu_score.sentence_bleu([ref], hyp, smoothing_function=cc.method7)
+    b[i] = str(bleu_score.sentence_bleu([ref], hyp, smoothing_function=cc.method7))
 
 f = open('bleu.txt', 'w')
 b = "\n".join(b)
